@@ -7,26 +7,25 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Storyboard: Space station Escape
 
 **Storyline:**
+The year is 2245. You are trapped aboard a damaged space station that has been taken over by a rogue artificial intelligence known as NEXUS. To shut down NEXUS, you must gather six critical components scattered throughout the station before entering the Control Core. If you enter the Control Core without all six components, NEXUS will detect and eliminate you. Collect all items and reach the villain's location to save the station and win the game.
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
-
+1.Command Center (Start Room) 
+2. Research Lab
+3. Engineering Bay
+4. Crew Quarters
+5. Medical Bay
+6. Cargo Hold
+7. Security Office
+8. Maintenance Tunnel
+9. Control Core (Villain Room)
 Add more rooms if your design needs them.
 
 ## Items
@@ -34,19 +33,19 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Data Chip
+2. Plasma Wrench
+3. Space Suit
+4. Med Kit
+5. Energy Cell
+6. Security Keycard
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+NEXUS (Rogue AI)
 
 ## Storyboard and Map Check
 
