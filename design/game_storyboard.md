@@ -5,28 +5,27 @@
 
 ## Theme and Storyline
 
-**Theme:**
+Space Rescue Mission
 
 TODO: Name and briefly describe your game's theme.
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The player is a space explorer aboard a damaged space station. The station's artificial intelligence has malfunctioned and become hostile. To escape safely, the player must travel through different sections of the station and collect critical equipment needed to repair an escape shuttle. Once all items have been collected, the player can confront the rogue AI and escape. If the player encounters the villain before collecting all items, they lose the game.
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
-
+1. Docking Bay (Start Room) 
+2. Command Center
+3. Engineering Lab
+4. Medical Bay
+5. Research Lab
+6. Storage Room
+7. Crew Quarters
+8. Security Office
+9. AI Core (Villain Room) 
 Add more rooms if your design needs them.
 
 ## Items
@@ -34,19 +33,19 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
-
+1. Access Card
+2. Repair Kit
+3. Med Pack
+4. Navigation Chip
+5. Oxygen Tank
+6. Energy Cell
+7. Security Badge
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+Rogue AI "NEXUS" 
 
 ## Storyboard and Map Check
 
