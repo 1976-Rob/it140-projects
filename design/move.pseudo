@@ -7,19 +7,91 @@
 # Write pseudocode, not Python code. Use clear indentation and course-appropriate
 # keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
-# TODO 1: Identify the information the movement process needs.
-# Consider the player's current room and movement command.
+FUNCTION move_player(current_room, direction)
 
-# TODO 2: Prompt for and receive the player's movement command.
+    IF current_room == "Docking Bay" THEN
+        IF direction == "north" THEN
+            current_room = "Command Center"
+        ELSE IF direction == "east" THEN
+            current_room = "Engineering Lab"
+        ELSE IF direction == "west" THEN
+            current_room = "Medical Bay"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
 
-# TODO 3: Validate whether the requested movement is possible from the
-# current room. Show the decision clearly.
+    ELSE IF current_room == "Command Center" THEN
+        IF direction == "south" THEN
+            current_room = "Docking Bay"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
 
-# TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
+    ELSE IF current_room == "Engineering Lab" THEN
+        IF direction == "west" THEN
+            current_room = "Docking Bay"
+        ELSE IF direction == "south" THEN
+            current_room = "Storage Room"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
 
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
+    ELSE IF current_room == "Storage Room" THEN
+        IF direction == "north" THEN
+            current_room = "Engineering Lab"
+        ELSE IF direction == "south" THEN
+            current_room = "Research Lab"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
 
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+    ELSE IF current_room == "Research Lab" THEN
+        IF direction == "north" THEN
+            current_room = "Storage Room"
+        ELSE IF direction == "west" THEN
+            current_room = "Security Office"
+        ELSE IF direction == "south" THEN
+            current_room = "AI Core"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
+
+    ELSE IF current_room == "Medical Bay" THEN
+        IF direction == "east" THEN
+            current_room = "Docking Bay"
+        ELSE IF direction == "south" THEN
+            current_room = "Crew Quarters"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
+
+    ELSE IF current_room == "Crew Quarters" THEN
+        IF direction == "north" THEN
+            current_room = "Medical Bay"
+        ELSE IF direction == "south" THEN
+            current_room = "Security Office"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
+
+    ELSE IF current_room == "Security Office" THEN
+        IF direction == "north" THEN
+            current_room = "Crew Quarters"
+        ELSE IF direction == "east" THEN
+            current_room = "Research Lab"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
+
+    ELSE IF current_room == "AI Core" THEN
+        IF direction == "north" THEN
+            current_room = "Research Lab"
+        ELSE
+            DISPLAY "You can't go that way."
+        END IF
+    END IF
+
+    RETURN current_room
+
+END FUNCTION
+`
